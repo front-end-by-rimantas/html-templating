@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HMTL templating examples</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="biblioteka" class="book-list">
+        <script id="book_template" type="text/template">
+            <article class="book">
+                <header>{{author}}</header>
+                <main>{{description}}</main>
+                <footer>{{date}}</footer>
+            </article>
+        </script>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/HTML-template.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
